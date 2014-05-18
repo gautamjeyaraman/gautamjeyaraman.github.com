@@ -121,8 +121,13 @@ text-decoration:none;
 }
 
 .q_container{
-margin-top:300px;
-display:none;
+position:fixed;
+visibility:hidden;
+top:0;
+bottom:0;
+left:0;
+right:0;
+z-index:99;
 }
 
 .q_container > div > div{
@@ -176,6 +181,10 @@ margin-left:20px;
 
 .ct_content{
 margin-top:30px;
+}
+
+#canvas_container{
+margin-top:61px;
 }
 
 hr{
