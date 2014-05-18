@@ -13,6 +13,10 @@ background:white;
 background:white;
 }
 
+.d3_container{
+margin-top:61px;
+}
+
 .d3_unit{
 height:550px;
 }
@@ -118,6 +122,7 @@ text-decoration:none;
 
 .q_container{
 margin-top:300px;
+display:none;
 }
 
 .q_container > div > div{

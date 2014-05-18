@@ -73,6 +73,8 @@ function collide(node) {
 }
 
 //Event for mouse scroll
+/*NOT FOR NOW
+
 var body = $("body"),
     navbar = $("#navbar");
 $(window).scroll(function(e){
@@ -85,6 +87,7 @@ $(window).scroll(function(e){
         navbar.removeClass("navbar-fixed-top");
     }
 });
+*/
 
 //Code for quote
 var Star = function(x, y, maxSpeed) {
