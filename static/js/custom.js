@@ -73,21 +73,23 @@ function collide(node) {
 }
 
 //Event for mouse scroll
-/*NOT FOR NOW
 
 var body = $("body"),
     navbar = $("#navbar");
 $(window).scroll(function(e){
     var currentTop = $(window).scrollTop();
+    var homeLi = $("#homeLi");
+    var contactLi = $("#contactLi");
     
-    if(currentTop > 475){
-        navbar.addClass("navbar-fixed-top");
+    if(currentTop > 1200){
+        homeLi.removeClass("active");
+        contactLi.addClass("active");
     }
     else{
-        navbar.removeClass("navbar-fixed-top");
+        homeLi.addClass("active");
+        contactLi.removeClass("active");
     }
 });
-*/
 
 //Code for quote
 var Star = function(x, y, maxSpeed) {
